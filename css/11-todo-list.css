@@ -1,0 +1,29 @@
+body{
+  font-family: arial;
+}
+.para1,.todo-head{
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  align-items: center;
+}
+.todo-head{
+  margin-bottom: 10px;
+}
+input{
+  font-size: 16px;
+  padding: 5px;
+}
+.btn1{
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 9px;
+}
+.btn2{
+  padding: 9px;
+  background-color: red;
+  color: white;
+  border: none;
+}
